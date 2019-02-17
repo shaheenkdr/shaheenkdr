@@ -3,6 +3,7 @@ layout: post
 title: "How to install Wav2letter"
 tags: Speech_Recognition Deep_Learning Wav2letter CNN
 comments: true
+permalink: how to install wav2letter
 ---
   
   
