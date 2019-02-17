@@ -15,5 +15,6 @@ According to FAIR, Wav2letter follows a completely convolutional approach, and u
 
 Also, to help everyone get a concise & precise overview of how Wav2letter works, the FAIR team has also made the architecture of Wav2letter public:
 
-{% include image.html url="/images/arch.png" description="Architecture of Wav2letter" %}
-
+![Wav2letter](https://raw.githubusercontent.com/shaheenkdr/shaheenkdr.github.io/master/images/arch.png
+ "Architecture of Wav2letter")
+ *Architecture of Wav2letter*
