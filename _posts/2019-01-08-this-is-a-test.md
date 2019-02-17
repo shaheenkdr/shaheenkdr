@@ -1,9 +1,13 @@
 ---
 layout: post
 title: "How to install Wav2letter"
-tags: Speech_Recognition, Deep_Learning, Wav2letter, CNN
+tags: Speech_Recognition Deep_Learning Wav2letter CNN
 comments: true
 ---
+
+
+
+
 
 The year 2018 was fabulous altogether. It got an even exhilarating finish, as FAIR (Facebook AI Research Team) by surprise released their end-to-end deep learning toolkit for Speech recognition.
 
