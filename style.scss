@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: $opensans;
+  font-family: $base-font;
   color: $base-color;
   line-height: 1.6;
   letter-spacing: 1px;
@@ -73,6 +73,7 @@ h6 {
 
 p {
   color: $text-color;
+  font-family: $opensans;
   margin: 15px 0;
 }
 
