@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Shaheen 
+name: Blog of Speech by Shaheen 
 
 # Short bio or description (displayed in the header)
 description: Speech | NLP | Deep Learning
@@ -37,13 +37,13 @@ footer-links:
   email: shaheenkdr@gmail.com
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github: shaheenkdr
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
-  linkedin: https://www.linkedin.com/in/shaheenkader/
+  linkedin: shaheenkader
   pinterest:
   rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/4738175/obx
   tumblr: # https://<username>.tumblr.com
   twitter: shaheenkdr
   youtube: # channel/<your_long_string> or user/<user-name>
