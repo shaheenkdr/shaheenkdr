@@ -53,18 +53,20 @@ To install `Arrayfire`, we’ll get its binary, `flashlight` has been tested wit
 
 ```
 > wget https://arrayfire.s3.amazonaws.com/3.6.1/ArrayFire-no-gl-v3.6.1_Linux_x86_64.sh
+
 ```
 
 Once the binaries are downloaded, add permission to execute:
 
 ```
->> chmod u+x ArrayFire-no-gl-v3.6.1_Linux_x86_64.sh
+> chmod u+x ArrayFire-no-gl-v3.6.1_Linux_x86_64.sh
 ```
 
 Then, execute the installer :
 
 ```
 > bash ArrayFire-no-gl-v3.6.1_Linux_x86_64.sh --include-subdir --prefix=/opt
+
 ```
 
 Once its done, set PATH as :
@@ -74,6 +76,121 @@ Once its done, set PATH as :
 > ldconfig
 ```
 
+##### googletest
+
+Now that `ArrayFire` is installed, we’ll now need to install `googletest` . This is a testing framework developed by the Testing & Technology team at `Google`.
+
+In order to install `googletest` follow the guide [here](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/).
+
+##### OpenMPI
+
+Next up, we’ll need to install `openmpi`, which is a toolkit for High Performance and parallel computing . To install :
 
 
+```
+> sudo apt-get install openmpi-bin openmpi-common libopenmpi-dev
+
+```
+
+Now presuming all dependencies are successfully installed, we can now finally build `flashlight`. To do so :
+
+
+Clone the repository of `flashlight` :
+
+```
+> git clone --recursive https://github.com/facebookresearch/flashlight.git
+> cd flashlight
+> mkdir -p build && cd build
+> cmake .. -DCMAKE_BUILD_TYPE=Release -DFLASHLIGHT_BACKEND=CUDA -DArrayFire_DIR=/opt/arrayfire-no-gl/share/ArrayFire/cmake/
+> make -j4  # (or any number of threads)
+> make install
+```
+
+> For more info on configuring flashlight with different installation flags, see the [DOCS](https://fl.readthedocs.io/en/latest/installation.html)
+
+##### libsndfile
+
+Now that we have `flashlight` configured, we need to install another dependency called `libsndfile`. This is required for loading audio. This library helps in reading and writing files containing sampled audio data. To Install :
+
+
+```
+> apt install autoconf autogen automake build-essential libasound2-dev libflac-dev libogg-dev libtool libvorbis-dev pkg-config python
+
+```
+
+##### Intel MKL
+
+`Wav2letter` uses Intel’s Math Kernel library for featurization purpose. In order to install `mkl` goto this [LINK](https://software.intel.com/en-us/mkl/choose-download/linux) , register and download the binaries. And all you need to do is execute the shell script by adding permission once its downloaded.
+
+Once its installed , export the PATH as :
+
+```
+export MKL_INCLUDE_DIR=/opt/intel/mkl/include 
+```
+
+You may want to change this if `mkl` is not installed in `/opt` dir by default.
+
+##### FFTW
+
+`fftw` is a `C` subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST). Since `Wav2letter` depends this library for featurization, we’ll need to build that as well. To do so :
+
+```
+> sudo apt-get install libfftw3-dev
+```
+
+##### KenLM
+
+`kenlm` is a an efficient library that implements two data structures for efficient language model queries, reducing both time and memory costs. The `PROBING` data structure uses linear probing hash tables and is designed for speed. Compared with the widely used `SRILM`, the `PROBING` model in `kenlm` is 2.4 times as fast while using 57% of the memory. The `TRIE` data structure is a trie with bit-level packing, sorted records, interpolation search, and optional quantization aimed at lower memory consumption. `TRIE` simultaneously uses less memory and less CPU. To install `kenlm`:
+
+
+```
+> apt-get install zlibc zlib1g zlib1g-dev libeigen3-dev bzip2 liblzma-dev libboost-all-dev
+> wget http://kheafield.com/code/kenlm.tar.gz
+> tar -xvzf kenlm
+> cd kenlm
+> mkdir -p build && cd build
+> cmake ..
+> make -j 4
+```
+
+After installation, do not forget to export the PATH, as :
+
+```
+> export KENLM_ROOT_DIR=/home/kenlm2
+```
+
+Change the directory values depending up on where you choose to extract and install the library.
+
+##### gflags
+
+`gflags` library implements command-line flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used. `Wav2letter` requires this library, and to install the library :
+
+```
+> sudo apt-get install libgflags2 libgflags-dev
+
+```
+
+##### glogs
+
+`glogs` is a `C++` implementation of Google’s logging library, and for logging purposes, `Wav2letter` depends this library. In order to install :
+
+```
+> sudo apt install libgoogle-glog-dev
+```
+
+##### gtest & gmock
+
+Finally, if you plan to build tests on this, you can install `gtest`. Its OPTIONAL and if you prefer to install, you can install from [HERE](https://github.com/google/googletest).
+
+
+And finally, if you’ve managed to successfully install all the required dependencies without errors, then we are good to build `Wav2letter`. In order to build:
+
+```
+> git clone --recursive https://github.com/facebookresearch/wav2letter.git
+> cd wav2letter
+> mkdir -p build && cd build
+> cmake .. -DCMAKE_BUILD_TYPE=Release -DCRITERION_BACKEND=CUDA -DArrayFire_DIR=/opt/arrayfire-no-gl/share/ArrayFire/cmake/ -DMKL_INCLUDE_DIR=/opt/intel/mkl/include -DBUILD_TESTS=OFF
+```
+
+If everything passes successfully, congrats and you are good to proceed with training neural networks using `Wav2letter`. Happy hacking & good luck :)
 
