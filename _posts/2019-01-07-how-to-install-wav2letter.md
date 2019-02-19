@@ -28,4 +28,21 @@ In order to build `Wav2letter`, we need to make sure we have a good `C++` compil
 > sudo apt-get install cmake g++
 ```
 
+##### Flashlight :
+
+Up next, we need to build `flashlight` as `wav2letter` uses it as a dependency, `flashlight` is a fast, flexible machine learning library written entirely in `C++` from the Facebook AI Research Speech team and the creators of Torch and Deep Speech.
+
+In order to build `flashlight`, up first we’ll need to satisfy few of its dependencies. First, we’ll need to install `Arrayfire`.
+
+
+##### ArrayFire
+
+`ArrayFire` is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.
+
+To install `Arrayfire`, we’ll get its binary, `flashlight` has been tested with the `3.6.1` version of `Arrayfire`, with no-gl support, ie the lightweight version without graphic support. To setup:
+
+```
+> wget https://arrayfire.s3.amazonaws.com/3.6.1/ArrayFire-no-gl-v3.6.1_Linux_x86_64.sh
+```
+
 
