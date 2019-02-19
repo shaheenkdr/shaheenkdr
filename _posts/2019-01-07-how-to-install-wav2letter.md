@@ -25,6 +25,7 @@ Also, to help everyone get a concise & precise overview of how Wav2letter works,
 In order to build `Wav2letter`, we need to make sure we have a good `C++` compiler installed with `C++11` support(preferably `g++ > 4.8` ). Also we require `CMake`(version 3.5.1 or later), a toolkit used to control the software compilation process using simple platform and compiler independent configuration files. If you do not have that already installed, install it by :
 
 ```
+
 > sudo apt-get install cmake g++
 
 ```
