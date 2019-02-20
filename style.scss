@@ -29,6 +29,12 @@ code {
   color: $code-color;
 }
 
+.highlighter-rouge {
+  color: $highligher;
+  font-size: 80%;
+  background-color: $backg;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
