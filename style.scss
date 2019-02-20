@@ -30,9 +30,9 @@ code {
 }
 
 .highlighter-rouge {
-  color: $highligher;
-  font-size: 80%;
-  background-color: $backg;
+  color: $highligher !important;
+  font-size: 80% !important;
+  background-color: $backg !important;
 }
 
 .container {
