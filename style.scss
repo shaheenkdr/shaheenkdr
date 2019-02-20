@@ -25,6 +25,10 @@ body {
   letter-spacing: 1px;
 }
 
+code {
+  color: $code-color;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
