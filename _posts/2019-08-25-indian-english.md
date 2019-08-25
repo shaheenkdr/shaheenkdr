@@ -125,6 +125,48 @@ if [ $stage -eq 7 ]; then
 fi
 ```
 
-Followed by which the same is generated for test dataset as well. 
+Followed by which the same is generated for test dataset as well. Then monophone training is completed. A monophone model is an acoustic model that does not include any contextual information about the preceding or following phone. It is used as a building block for the triphone models, which do make use of contextual information. Since this is a large dataset, in order to
+speed up, only first 10k short utterances from Switchboard was used for monophone training: 
+
+```
+if [ $stage -eq 11 ]; then
+ local/make_partitions.sh --multi $multi --stage 1 || exit 1;
+ steps/train_mono.sh --boost-silence 1.25 --nj 80 --cmd "$train_cmd" \
+   data/$multi/mono ${lang_root}_nosp exp/$multi/mono || exit 1;
+fi
+```
+
+While monophone models simply represent the acoustic parameters of a single phoneme, we know that phonemes will vary considerably depending on their particular context. The triphone models represent a phoneme variant in the context of two other (left and right) phonemes. Hence triphone training is completed next stage by stage. 
+
+In first and second triphone pass, first 30k utterances of Switchboard is trained, then in the third pass 100k utterances of Switchboard is trained, and on finally on fourth pass, the entire utterances of Switchboard is trained.
+
+Once this is completed, stage by stage we add each dataset using LDA + MLLT approach, which is Linear Discriminant Analysis with Maximum Likelihood Linear transform. This helps in dimensionality reduction and reduces the emission probabilities when using diagonal covariance matrices for the GMMs. Followed by which we do a Speaker Adaptive Training to improve the accuracy levels and then do a GMM decoding. The accuracy here is around 25 - 30 % WER . 
+
+```
+if [ $stage -eq 18 ]; then
+  local/make_partitions.sh --multi $multi --stage 6 || exit 1;
+  steps/align_fmllr.sh --cmd "$train_cmd" --nj 100 \
+    data/$multi/tri3b_ali $lang \
+    exp/$multi/tri3b exp/$multi/tri3b_ali || exit 1;
+  steps/train_sat.sh --cmd "$train_cmd" 11500 800000 \
+    data/$multi/tri4 $lang exp/$multi/tri3b_ali exp/$multi/tri4 || exit 1;
+  (  
+    gmm=tri4
+    graph_dir=exp/$multi/$gmm/graph_tg
+    utils/mkgraph.sh ${lang}_fsh_sw1_tg \
+      exp/$multi/$gmm $graph_dir || exit 1;
+    for e in librispeech; do
+      steps/decode_fmllr.sh --nj 10 --cmd "$decode_cmd" --config conf/decode.config $graph_dir \
+        data/$e/test exp/$multi/$gmm/decode_tg_$e || exit 1;
+    done
+  )&
+fi
+```
+
+##### DNN Training
+
+
+
+
 
 
