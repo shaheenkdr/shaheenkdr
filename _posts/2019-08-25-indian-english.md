@@ -271,8 +271,15 @@ In order to test this, all that needs to be done is to pass the audio to the lis
 
 ```
 
-This returns the transcript, for a sample demo, a news file transcript output is shown below : 
+This returns the transcript, for a sample demo, a news file transcript output is shown below , You can click on the image or [here](https://drive.google.com/file/d/1Ne6jCj6OJ1N0ezVPDaj5X_rtx3bEA8of/view?usp=sharing) to listen to the original audio: 
 
 [<img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/pic.png">](https://drive.google.com/file/d/1Ne6jCj6OJ1N0ezVPDaj5X_rtx3bEA8of/view?usp=sharing)
+
+
+The transcript generated for the same by the engine is provided below in the order of metric of growth :
+
+<img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/1.png">
+<img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/2.png">
+<img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/3.png">
 
 
