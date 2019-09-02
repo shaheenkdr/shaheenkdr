@@ -31,6 +31,10 @@ code {
   font-size: $code-font-size;
 }
 
+pre {
+  background-color: $white;
+}
+
 .highlighter-rouge {
   color: $highligher !important;
   font-size: 80% !important;
