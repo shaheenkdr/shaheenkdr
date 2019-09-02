@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Programmer by day , gamer by night ! 
 
 ### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am Shaheen and I hail from south India. I am paassionately curious about all things in Digital Speech Processing and NLP. With a masters degree in CS I work as a research engineer these days. If I am not training neural nets, you'd find me gaming or experimenting with photography. If there's anything I can help you out with, feel free to reach out !   
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[shaheenkdr@gmail.com](mailto:shaheenkdr@gmail.com)
