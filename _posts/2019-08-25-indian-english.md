@@ -45,6 +45,23 @@ This project was completely developed in the Kaldi Toolkit, and was run, tested 
 
 * Cpp
 
+
+##### Timeline
+
+* Week 1 : The first week was spent on setting up the workspace in Red Hen Gallina space. This was done in accordance with the Red Hen guidelines (here)[http://www.redhenlab.org/home/tutorials-and-educational-resources/using-singularity-to-create-portable-applications]. The Singularity image was setup, followed by installation of Kaldi then the datasets were downloaded and formatted according to its structure. 
+
+* Week 2 - 3 : Spent on pre-processing the English Datasets. Around approx 3000 hours of data was pre-processed and cleaned and made into a unified structure. Followed by feature extraction, initial HMM - GMM training. 
+
+* Week 4 - 5 : DNN training was completed in this stage. This was trained on a Google Cloud machine with 8 GPUs and has to re-iterate various stages for correction and accuracy improvements. 
+
+* Week 6 : Focused mainly on obtaining datasets for Hindi from LDC-IL at CIIL. 
+
+* Week 7 : Focused mainly on building the Hindi ASR project with pre recorded 200 utterances spoken by 6 different speakers. 
+
+* Week 8 : Completed the documentation and deployment of the project. Source code is available in [Github](https://github.com/shaheenkdr/gsoc2019/) . And the entire files has been uploaded to the the Red Hen Gallina Server. Available at :
+`/mnt/rds/redhen/gallina/home/sxk1497/gsoc2019`
+
+
 ##### Development
 
 The development of the project was completed in multiple stages. The first step was to bring all datasets to a unified format
@@ -281,5 +298,31 @@ The transcript generated for the same by the engine is provided below in the ord
 <img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/1.png">
 <img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/2.png">
 <img src="https://raw.githubusercontent.com/shaheenkdr/GSoC2019/master/indianeng/3.png">
+
+
+##### Future Work
+
+At present, the Indian English is trained along with the NPTEL model, though this provides a substantial level of accuracy. There needs to be more works done to enhance the accuracy on same. Speaker Diarization is one aspect that needs to be perfected to improve the accuracy levels by splitting speaker wise. More data needs to be collected on that domain to make it accurate. Other improvements include, training the same datasets on different neural network architectures to optimize it for a higher Word Error Rate. A semi - supervised learning engine can be trained by leveraging this existing model to enhance the accuracy in the next step. 
+
+##### References
+
+*  D. Povey, A. Ghoshal, G. Boulianne, L. Burget, O. Glembek, N. Goel, M. Hannemann, P.
+Motlicek, Y. Qian, P. Schwarz, J. Silovsky, G. Stemmer, and K. Vesely. ”The Kaldi Speech
+Recognition Toolkit”. In IEEE 2011 Workshop on Automatic Speech Recognition and
+Understanding. IEEE Signal Processing Society, 2011.
+
+*  V. Peddinti, D. Povey, and S. Khudanpur, “A time delay neural network architecture for
+efficient modeling of long temporal contexts,” in Proceedings of INTERSPEECH, 2015.
+
+* D. Povey, V. Peddinti, D. Galvez, P. Ghahrmani, V. Manohar, X. Na, Y. Wang, and S.
+Khudanpur, “Purely sequence-trained neural networks for ASR based on lattice-free MMI”,
+in Proc. Interspeech, pp. 2751–2755, 2016.
+
+* "A Symmetrization of the Subspace Gaussian Mixture Model", Daniel Povey, Martin Karafiat, Arnab Ghoshal, Petr Schwarz, ICASSP 2011
+
+* "Revisiting Recurrent Neural Networks for Robust ASR", Oriol Vinyals, Suman V. Ravuri, Daniel Povey, ICASSP 2012
+
+
+
 
 
