@@ -15,6 +15,7 @@ $lightGray: #eee;
 $white: #fff;
 $codewhite: #ffffff;
 $graypunch: #e0e0e0;
+$tagcolor: #bbc2c9;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -62,7 +63,7 @@ $pagination-color: $oc-gray-6;
 $pagination-over-color: $oc-gray-7;
 
 $tag-index-label-color: $base-color;
-$tag-index-label-background-color: $oc-gray-2;
+$tag-index-label-background-color: $tagcolor;
 $tag-index-count-background-color: $oc-gray-3;
 
 $footer-border-color: $oc-gray-2;
