@@ -188,4 +188,4 @@ make -j 20
 
 This should build Kaldi, It takes some time to complete depending upon the specs of your system. Once its done if you get a success message, Congrats on your completion of the first mission. You've successfully built Kaldi. In next post, we'll see the structure of Kaldi and an overview to its working. Followed by which we'll build some real engines using Kaldi. 
 
-Till then Happy Hacking :green_heart:
+Till then Happy Hacking :alien:
