@@ -93,7 +93,7 @@ p {
 
 a {
   color: $refcolor;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
     color: $link-color;
