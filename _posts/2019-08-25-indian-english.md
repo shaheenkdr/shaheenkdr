@@ -5,6 +5,7 @@ tags: SpeechRecognition DeepLearning Kaldi DNN
 comments: true
 permalink: indian-english
 ---
+<br>
 This project was completed as part of [Google Summer of Code 2019](https://summerofcode.withgoogle.com/projects/#6492594211651584) under the mentorship of RedHen Lab. I'd like to thank Prof Dr TM
 Thasleema, Central University Kerala and Karan Singla, PhD graduate student at USC Viterbi school of Engineering, mentors of this project for their extended and comprehensive support without which this project wouldn't have been completed. Also absolutely indebted to Prof Mark Turner, Case Western Reserve University, and Prof Francis Steen UCLA, for exceptional and quick support from the community side.
 
