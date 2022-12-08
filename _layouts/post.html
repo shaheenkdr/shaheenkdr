@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+
+
 <article class="post">
   <h1>{{ page.title }}</h1>
 
