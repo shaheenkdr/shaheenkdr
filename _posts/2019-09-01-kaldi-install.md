@@ -6,8 +6,6 @@ comments: true
 permalink: how-to-install-kaldi
 ---
 <br>
-<br>
-
 If you are a huge fan of Deep Learning and was thinking how that can be applied to help machines understand human Speech, ie Automated Speech Recognition (ASR), you are in the right place. This article explains how you can kickstart your voyage to the world of Speech understanding using Deep Learning.
 
 In this post, we'll see how to set [Kaldi](https://kaldi-asr.org) up and running.  
