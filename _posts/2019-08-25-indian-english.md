@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Creating an Indian English ASR"
-excerpt: Learn how to easily install Kaldi, the open-source speech recognition toolkit, on your computer. Follow our step-by-step guide and start using Kaldi to transcribe and recognize speech in your own projects. This tutorial covers the installation process for Windows, Mac, and Linux operating systems. Boost your productivity and accuracy with Kaldi's powerful speech recognition capabilities.
+title: "Build a State-of-the-Art Indian English Speech Recognition System with the Powerful Kaldi Toolkit"
+excerpt: Learn how to create a highly accurate and efficient Indian English speech recognition system using the Kaldi toolkit. This step-by-step guide will help you get started quickly and easily, with tips and tricks for optimizing your system for the best performance.
 tags: SpeechRecognition DeepLearning Kaldi DNN
 comments: true
 permalink: indian-english
