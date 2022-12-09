@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How to install Wav2letter"
+title: "Get Started with the Wav2letter Toolkit: A Beginner's Guide to Installing and Configuring Wav2letter"
+excerpt: Ready to start using the Wav2letter toolkit for speech recognition? This beginner-friendly guide will help you install and configure Wav2letter quickly and easily, with step-by-step instructions and helpful tips for optimizing your setup. Get started now and take your speech recognition skills to the next level with Wav2letter!
 tags: SpeechRecognition DeepLearning Wav2letter CNN
 comments: true
 permalink: how-to-install-wav2letter
