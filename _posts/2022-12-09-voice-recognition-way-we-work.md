@@ -2,7 +2,7 @@
 layout: post
 title: "Revolutionizing the Workplace: How Voice Recognition is Changing the Way We Work"
 excerpt: From dictation to virtual assistants, voice recognition is transforming the way we work. In this post, we explore the technology behind voice recognition and how it's being used in the workplace to improve productivity and efficiency. Discover the benefits and challenges of voice recognition and how it's shaping the future of work.
-tags: SpeechRecognition DeepLearning Kaldi DNN
+tags: VoiceRecognition Workplace Productivity Efficiency
 comments: true
 permalink: voice-recognition-workplace
 ---
