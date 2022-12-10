@@ -31,6 +31,10 @@ code {
   font-size: $code-font-size;
 }
 
+@font-face {
+  font-family: "roboto-slab";
+  src: url("RobotoSlab-Regular.ttf") format("truetype");
+}
 
 
 .highlighter-rouge {
@@ -87,8 +91,7 @@ h6 {
 
 .reachout {
   color: #2b6cc2;
-  font-family: $Serif;
-  font-weight: bold;
+  font-family: "roboto-slab";
   font-size: 18px;
 }
 
