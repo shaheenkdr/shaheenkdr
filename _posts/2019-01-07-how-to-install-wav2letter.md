@@ -193,9 +193,10 @@ And finally, if you’ve managed to successfully install all the required depend
 ```
 
 If everything passes successfully, congrats and you are good to proceed with training neural networks using `Wav2letter`. Happy hacking & good luck :)
-
-<div class="reachout">
- 
+<hr>
+<br>
+<br>
+<div class="reachout"> 
 PS : Thanks for reading this blogpost! If you have any questions, problem statement, or requirements
 Please dont hesitate to reach out to me. I offer free AI consultations to help you explore how AI and
 Machine learning can be used to solve your business challenges.
