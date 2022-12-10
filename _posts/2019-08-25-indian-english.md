@@ -320,6 +320,16 @@ in Proc. Interspeech, pp. 2751–2755, 2016.
 * "Revisiting Recurrent Neural Networks for Robust ASR", Oriol Vinyals, Suman V. Ravuri, Daniel Povey, ICASSP 2012
 
 
+<br>
+<hr>
+<br>
+<div class="reachout"> 
+PS : Thanks for reading this blogpost! If you have any questions, problem statement, or requirements
+Please dont hesitate to reach out to me. <br>I offer free AI consultations to help you explore how AI and
+Machine learning can be used to solve your business challenges. <br>
+I am available at : shaheenkdr [@] gmail [dot] com
+</div>
+
 
 
 
