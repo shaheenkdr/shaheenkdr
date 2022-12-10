@@ -197,7 +197,7 @@ If everything passes successfully, congrats and you are good to proceed with tra
 <br>
 <div class="reachout"> 
 PS : Thanks for reading this blogpost! If you have any questions, problem statement, or requirements
-Please dont hesitate to reach out to me. I offer free AI consultations to help you explore how AI and
+Please dont hesitate to reach out to me. <br>I offer free AI consultations to help you explore how AI and
 Machine learning can be used to solve your business challenges. <br>
 I am available at : shaheenkdr [@] gmail [dot] com
 </div>
