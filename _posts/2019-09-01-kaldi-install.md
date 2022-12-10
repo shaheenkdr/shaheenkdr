@@ -188,3 +188,13 @@ make -j 20
 This should build Kaldi, It takes some time to complete depending upon the specs of your system. Once its done if you get a success message, Congrats on your completion of the first mission. You've successfully built Kaldi. In next post, we'll see the structure of Kaldi and an overview to its working. Followed by which we'll build some real engines using Kaldi. 
 
 Till then Happy Hacking ◕‿◕
+
+<br>
+<hr>
+<br>
+<div class="reachout"> 
+PS : Thanks for reading this blogpost! If you have any questions, problem statement, or requirements
+Please dont hesitate to reach out to me. <br>I offer free AI consultations to help you explore how AI and
+Machine learning can be used to solve your business challenges. <br>
+I am available at : shaheenkdr [@] gmail [dot] com
+</div>
