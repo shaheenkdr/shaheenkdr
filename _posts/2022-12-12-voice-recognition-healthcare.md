@@ -31,6 +31,9 @@ It has a vast application in the healthcare industry, especially when it comes t
 ##### The State of Voice Recognition in Healthcare - Facts & Figures
 
 The growing adoption of voice assistants in the healthcare sector will fuel demand for voice recognition solutions. Here is a breakdown of the state of voice speech in the healthcare arena. According to [research](https://www.fortunebusinessinsights.com/amp/industry-reports/speech-and-voice-recognition-market-101382):
+
+![AI in healthcare growth stats](images/stats-healthcare.png)
+
 * The global speech and voice recognition market is projected to grow from $11.21 billion in 2022 to $49.79 billion by 2029 at a CAGR of 23.7% in the forecast period.
 * Speech and voice recognition software played a crucial role during the COVID-19 pandemic. For example, Apple’s Siri helped patients by recommending telehealth apps through the CDC COVID-19 assessment. 
 * In April 2022, Google LLC launched speech recognition technology ‘Speech-to-Text API’ to boost the voice user interface that uses a neural sequence model to improve accuracy in 23 languages and 61 of the supported localities.
