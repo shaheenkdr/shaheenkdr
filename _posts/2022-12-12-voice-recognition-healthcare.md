@@ -5,7 +5,7 @@ excerpt: Discover how voice recognition technology is revolutionizing the health
 comments: true
 permalink: voice-recognition-healthcare
 ---
-![AI in healthcare](images/health1.jpg)
+![AI in healthcare](images/health2.jpg)
 <br>
 As voice recognition technology is gaining momentum, organisations are actively looking for ways to implement it in their healthcare practices to offer the best patient care. From appointment booking to virtual health guides, voice recognition has vast applications within the medical field.
 
