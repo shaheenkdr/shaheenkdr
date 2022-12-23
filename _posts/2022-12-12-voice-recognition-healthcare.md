@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Voice Recognition is Transforming the Healthcare Industry"
-imagex: "images/health2.jpg"
+imagex: "https://shaheenkdr.github.io/images/health2.jpg"
 excerpt: Discover how voice recognition technology is revolutionizing the healthcare industry and improving patient care. Learn about the latest advancements in this exciting field and how it is shaping the future of healthcare.
 comments: true
 permalink: voice-recognition-healthcare
