@@ -7,6 +7,7 @@ tags: VoiceRecognition Workplace Productivity Efficiency
 comments: true
 permalink: voice-recognition-workplace
 ---
+<br>
 ![Voice recognition transforming workspace](images/work-space-main.jpg)
 <br>
 The modern workplace is constantly evolving, with new technologies and approaches emerging all the time that aim to increase productivity and efficiency. One such technology that has the potential to revolutionize the way we work is voice recognition.
