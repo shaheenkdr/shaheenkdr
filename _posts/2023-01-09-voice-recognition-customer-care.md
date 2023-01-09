@@ -35,11 +35,11 @@ As voice recognition technology continues to rise in popularity, there are plent
 Over the past few years, the customer service industry has been buzzing about tech lingos like voice recognition technology to provide  personalized customer experience. Established brands are realizing the potential and necessity of speech recognition more than ever. There is a huge potential for businesses of all sizes to leverage speech recognition technology to better serve their customers and prospects. Here is a breakdown of the rise and usage of voice recognition technology. 
 
 
-* The (global voice recognition market)[https://www.statista.com/statistics/1133875/global-voice-recognition-market-size/] size was forecast to grow from 10.7 billion USD in 2020 to 27.16 billion USD by 2026 at a CAGR of 16.8%. 
+* The [global voice recognition market](https://www.statista.com/statistics/1133875/global-voice-recognition-market-size/) size was forecast to grow from 10.7 billion USD in 2020 to 27.16 billion USD by 2026 at a CAGR of 16.8%. 
 
-* (By 2025 40%)[https://www.odigo.com/en-gb/blog-and-resources/blog/optising-speech-recognition-is-a-must-for-contact-centres/] of all inbound voice communications to call centers will use speech-to-text technology. 
+* [By 2025 40%](https://www.odigo.com/en-gb/blog-and-resources/blog/optising-speech-recognition-is-a-must-for-contact-centres/) of all inbound voice communications to call centers will use speech-to-text technology. 
 
-* (Around 75%)[https://www.dbswebsite.com/blog/trends-in-voice-search/] of voice search results will rank in the top 3 positions for a particular question on a desktop search.
+* [Around 75%](https://www.dbswebsite.com/blog/trends-in-voice-search/) of voice search results will rank in the top 3 positions for a particular question on a desktop search.
 
 * There will be more than 8 billion digital voice assistants in use by 2023, up from an estimated 2.5 billion at the end of 2018.
 
@@ -55,8 +55,8 @@ Meeting customers’ expectations requires service providers to rethink the cust
 
 3. Solve Customer Queries Faster: Today customers expect to talk through the details over the phone to get a quick resolution to their queries - all without skipping a beat. Despite having many channels of communication, people are using their mobile devices to connect with businesses. It’s because experience is better and it’s familiar. Many customer service brands are leveraging voice recognition technology with AI to solve customer customers’ queries in an accurate and efficient way. To provide quick resolutions to your customers, you can:
 
-  * Prepare a list of frequently asked questions and curate answers for them.
-  * Talk to the sales team about common challenges that your customer face.
+    * Prepare a list of frequently asked questions and curate answers for them.
+    * Talk to the sales team about common challenges that your customer face.
 
 4. Help to Amplify Your Brand Reach: If you plan to exceed your brand globally or already cater to a global customer base, you need a voice assistant with multilingual capabilities. In the coming years, many businesses will deploy multilingual voice assistants to boost their localization efforts and amplify their reach. Since many customers prefer to use their native tongue to communicate with their trusted brand, in 2023 and beyond, many brands will consider using voice assistants with multilingual capabilities to improve their customer support efforts.
 
@@ -76,4 +76,12 @@ Now that we have established how voice recognition technology can take your cust
 The Bottom Line
 
 No doubt, that the future of voice recognition technology in customer service would be inclined toward artificial intelligence, machine learning, and automation. In this customer-centric world, companies that do not leverage this technology are going to lag behind the competition. Therefore, businesses must invest in voice recognition to provide a stellar customer experience to get a competitive edge. 
-
+<br>
+<hr>
+<br>
+<div class="reachout"> 
+PS : Thanks for reading this blogpost! If you have any questions, problem statement, or requirements
+Please dont hesitate to reach out to me. <br>I offer free AI consultations to help you explore how AI and
+Machine learning can be used to solve your business challenges. <br>
+I am available at : shaheenkdr [@] gmail [dot] com
+</div>
