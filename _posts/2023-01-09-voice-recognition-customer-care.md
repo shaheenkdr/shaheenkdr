@@ -23,7 +23,7 @@ So, let’s dive right in!
 
 As voice recognition technology continues to rise in popularity, there are plenty of opportunities rising for businesses in this space as it can revolutionize the way brands provide support to their customers. This powerful technology has vast applications in the customer service field when it comes to providing stellar customer experiences. With voice recognition, you can:
 
-* Transcribe calls in real-time as well as previous calls directly to the customer’s dashboard.
+* Transcribe and analyze the customer phone calls for effective sentiment analysis and brand perception assessment.
 * Increase efficiency in the workplace by allowing employees to complete their tasks faster.
 * Improve accuracy in the workplace by ensuring that information entered into the databases and other systems is correct.
 * Provide seamless shopping, search, and customer experience.
