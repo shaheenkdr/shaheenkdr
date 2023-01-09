@@ -73,7 +73,7 @@ Now that we have established how voice recognition technology can take your cust
 * Voice cloning will take a front seat in 2023.
 * Smart speakers will drive voice search adoption.
 
-The Bottom Line
+##### The Bottom Line
 
 No doubt, that the future of voice recognition technology in customer service would be inclined toward artificial intelligence, machine learning, and automation. In this customer-centric world, companies that do not leverage this technology are going to lag behind the competition. Therefore, businesses must invest in voice recognition to provide a stellar customer experience to get a competitive edge. 
 <br>
